@@ -1,5 +1,6 @@
 import { SlideWrapper, SlideContent } from './SlideWrapper'
 import { Card } from '@/components/ui/card'
+import satelliteImg from '@/assets/img1454-3a72d.jpeg'
 
 export function Slide14({ isActive }: { isActive: boolean }) {
   return (
@@ -73,11 +74,11 @@ export function Slide16({ isActive }: { isActive: boolean }) {
     <SlideWrapper isActive={isActive} className="p-0 lg:p-0">
       <div className="absolute inset-0 z-0">
         <img
-          src="https://img.usecurling.com/p/1920/1080?q=luxury%20residential%20landscape&color=black&dpr=2"
-          alt="Legacy"
-          className="w-full h-full object-cover opacity-50"
+          src={satelliteImg}
+          alt="Área do Parque da Prata - 115.160,63 m²"
+          className="w-full h-full object-cover opacity-40 object-center"
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-background via-background/60 to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-t from-background via-background/80 to-transparent" />
       </div>
 
       <div className="relative z-10 w-full max-w-5xl mx-auto px-6 text-center">
