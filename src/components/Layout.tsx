@@ -1,6 +1,5 @@
 import { Outlet } from 'react-router-dom'
 import { usePresentation } from '@/hooks/use-presentation'
-import { Button } from '@/components/ui/button'
 import { cn } from '@/lib/utils'
 
 export default function Layout() {
@@ -16,12 +15,6 @@ export default function Layout() {
             PARQUE DA PRATA
           </span>
         </div>
-        <Button
-          variant="outline"
-          className="pointer-events-auto border-primary/50 text-primary hover:bg-primary hover:text-primary-foreground transition-colors glass-card rounded-none"
-        >
-          Agendar Reunião
-        </Button>
       </header>
 
       {/* Progress Bar */}

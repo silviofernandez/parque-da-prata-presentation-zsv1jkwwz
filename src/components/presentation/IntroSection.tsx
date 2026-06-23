@@ -1,15 +1,16 @@
 import { SlideWrapper, SlideContent } from './SlideWrapper'
 import { Card, CardContent } from '@/components/ui/card'
 import { MapPin, Zap, TrendingUp, Compass } from 'lucide-react'
+import heroImage from '@/assets/img1454-3a72d.jpeg'
 
 export function Slide1({ isActive }: { isActive: boolean }) {
   return (
     <SlideWrapper isActive={isActive} className="p-0 lg:p-0">
-      <div className="absolute inset-0 z-0">
+      <div className="absolute inset-0 z-0 bg-background">
         <img
-          src="https://img.usecurling.com/p/1920/1080?q=modern%20urbanism&color=black&dpr=2"
+          src={heroImage}
           alt="Parque da Prata Urbanism"
-          className="w-full h-full object-cover opacity-60 animate-ken-burns"
+          className="w-full h-full object-cover opacity-50 animate-ken-burns"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-background via-background/40 to-transparent" />
       </div>
